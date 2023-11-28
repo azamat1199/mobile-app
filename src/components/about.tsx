@@ -61,50 +61,49 @@ export default function About() {
       </div>
       <div>
         <div className="flex flex-col flex-wrap gap-3">
-          {/* <p>{moment(date).format("MMMM DD, YYYY")}</p> */}
           <div className="flex gap-1 flex-col items-center">
-            <span>Бомдод</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Бомдод</span>
+            <span className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.fajr)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
             </span>
           </div>
           <div className="flex gap-1 flex-col items-center">
-            <span>Куеш</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Куеш</span>
+            <span  className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.sunrise)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
             </span>
           </div>
           <div className="flex gap-1 flex-col items-center">
-            <span>Пешин</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Пешин</span>
+            <span  className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.dhuhr)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
             </span>
           </div>
           <div className="flex gap-1 flex-col items-center">
-            <span>Аср</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Аср</span>
+            <span  className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.asr)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
             </span>
           </div>
           <div className="flex gap-1 flex-col items-center">
-            <span>Шом</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Шом</span>
+            <span  className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.maghrib)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
             </span>
           </div>
           <div className="flex gap-1 flex-col items-center">
-            <span>Хуфтон</span>
-            <span>
+            <span className="font-sans font-medium text-[#000]">Хуфтон</span>
+            <span  className="font-sans text-[#000] font-normal leading-[18px]">
               {moment(prayerTimes.isha)
                 .tz("Turkey")
                 .format("MMMM DD, YYYY h:mm A")}
